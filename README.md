@@ -1,0 +1,1 @@
+child theme for WP-Bootstrap Theme (wp-types.com)
