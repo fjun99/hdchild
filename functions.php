@@ -74,6 +74,7 @@ function edd_is_product_in_cart(  $download_id){
             if($item['id'] == $download_id)
                 return 1;
         }
+        return 0;
     }else{
         return 0;
     }
