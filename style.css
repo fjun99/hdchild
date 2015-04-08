@@ -12,3 +12,15 @@
  Text Domain:  wp-Bootstrap-child
 */
 
+.hero-unit {
+    background: url('heroimage.jpg');
+}
+
+.modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+}
