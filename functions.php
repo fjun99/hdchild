@@ -71,7 +71,7 @@ function edd_is_product_in_cart(  $download_id){
     $cart_details = function_exists( 'edd_get_cart_content_details' ) ? edd_get_cart_content_details() : false;
     if($cart_details){
         foreach ($cart_details as $item) {
-            if($item[id] == $download_id)
+            if($item['id'] == $download_id)
                 return 1;
         }
     }else{
