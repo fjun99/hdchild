@@ -72,10 +72,12 @@ function edd_is_product_in_cart(  $download_id){
     if($cart_details){
         foreach ($cart_details as $item) {
             if($item['id'] == $download_id)
+                echo "in cart";
                 return 1;
         }
     }else{
         return 0;
+        echo "no cart";
     }
 
 }
