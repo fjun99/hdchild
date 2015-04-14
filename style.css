@@ -29,11 +29,6 @@
     book single page
 */
 
-.bookimage img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .bookinfo {
     padding-top: 16px;
