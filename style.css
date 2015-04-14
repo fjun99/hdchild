@@ -24,3 +24,7 @@
     width: auto;
     margin: 0;
 }
+
+.bookbody p{
+    font-size:16px;
+}
