@@ -78,3 +78,13 @@ function edd_is_product_in_cart(  $download_id){
 
     return 0;
 }
+
+//head cleaning
+
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head', 'rsd_link');
+
+remove_action('wp_head', 'feed_links_extra', 3); // Remove category feeds
+remove_action('wp_head', 'feed_links', 2); // Remove Post and Comment Feeds
+
+remove_action('wp_head', 'wp_generator');
