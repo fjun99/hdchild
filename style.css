@@ -29,7 +29,7 @@
     book single page
 */
 
-.bookimage img {
+.bookimage img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;
