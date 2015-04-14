@@ -66,4 +66,7 @@
         margin-right: 0;
         margin-left: 0;
     }
+    .row {
+        margin-top: 10px;
+    }
 }
