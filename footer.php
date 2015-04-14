@@ -23,8 +23,10 @@
 		<?php if ( wpbootstrap_get_setting('general_settings', 'display_footer' ) ): ?>
 		    <?php if (of_get_option('display_credit_footer')) : ?>
 			<footer id="footer" class="muted">
+                <hr>
 				<p class="pull-left"><?php echo of_get_option('display_credit_footer_left'); ?></p>
 				<p class="pull-right"><?php echo of_get_option('display_credit_footer_right'); ?></p>
+                <hr class="clear">
                 <p><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>
 			</footer>
 			<?php endif; ?>
