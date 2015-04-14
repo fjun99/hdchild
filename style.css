@@ -64,7 +64,7 @@
 {
     .navbar-fixed-top
     {
-        position: relative;
+        position: fixed;
         top: auto;
     }
 }
