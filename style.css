@@ -114,3 +114,13 @@ a.edd-wl-action.edd-wl-button .label{
 .form-item-checkbox label{
     display: inline;
 }
+
+/*
+    homepage
+*/
+
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
