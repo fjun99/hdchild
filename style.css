@@ -56,7 +56,8 @@
 
 
 .singlesidebar {
-    border-left: 1px;
+    padding-left:20px;
+    border-left: 1px solid #eee;
 }
 
 article{
@@ -69,7 +70,8 @@ article{
         padding-right: 0px;
     }
     .singlesidebar {
-        border-left: 0px;
+        padding-left:0px;
+        border-left: none;
     }
 }
 
