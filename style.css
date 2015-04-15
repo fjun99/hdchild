@@ -22,14 +22,6 @@ body
     background: url('heroimage.jpg');
 }
 
-.modal {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    width: auto;
-    margin: 0;
-}
 
 /*
     book single page
@@ -90,7 +82,13 @@ a.edd-wl-action.edd-wl-button .label{
     background-color:#fff;
 }
 
-a.edd-wl-action.edd-wl-button{
-    border-color:#fff;
+.modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.5)
 }
 
