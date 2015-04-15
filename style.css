@@ -107,6 +107,9 @@ a.edd-wl-action.edd-wl-button .label{
 /*
     WP-Types
 */
+.wpt-form-item-radio label{
+    display: inline;
+}
 
 .form-item-checkbox label{
     display: inline;
