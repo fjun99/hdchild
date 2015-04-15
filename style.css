@@ -84,10 +84,13 @@ article{
 /*
     EDD wish lists
     */
-.edd-wl-button .label{
+a.edd-wl-action.edd-wl-button .label{
     color:#000;
     text-shadow:none;
     background-color:#fff;
 }
 
+a.edd-wl-action.edd-wl-button{
+    border-color:#fff;
+}
 
