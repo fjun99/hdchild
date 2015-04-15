@@ -81,3 +81,11 @@ article{
     }
 }
 
+/*
+    EDD wish lists
+    */
+a.edd-wl-action .label{
+    color:#000;
+    text-shadow:none;
+}
+
