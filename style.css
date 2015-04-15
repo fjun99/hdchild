@@ -147,6 +147,10 @@ a.edd-wl-action.edd-wl-button .label{
     position: relative;
 }
 
+.frontdiv p{
+    line-height: 24px;
+}
+
 .frontdiv>a {
     position: absolute;
     width: 100%;
