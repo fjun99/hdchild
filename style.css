@@ -55,6 +55,7 @@ body
 .singlesidebar {
     padding-left:20px;
     border-left: 1px solid #eee;
+    padding-top: 32px;
 }
 
 article{
