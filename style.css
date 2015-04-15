@@ -54,9 +54,22 @@
     line-height: 24px;
 }
 
+
+.booksider {
+    border-left: 1px;
+}
+
+article{
+    padding-top: 20px;
+}
+
+
 @media only screen and (max-device-width: 480px) {
     .bookbody {
         padding-right: 0px;
+    }
+    .booksider {
+        border-left: 0px;
     }
 }
 
@@ -68,6 +81,3 @@
     }
 }
 
-article{
-    padding-top: 20px;
-}
