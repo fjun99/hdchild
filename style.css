@@ -55,7 +55,7 @@
 }
 
 
-.booksider {
+.singlesidebar {
     border-left: 1px;
 }
 
@@ -68,7 +68,7 @@ article{
     .bookbody {
         padding-right: 0px;
     }
-    .booksider {
+    .singlesidebar {
         border-left: 0px;
     }
 }
