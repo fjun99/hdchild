@@ -12,6 +12,11 @@
  Text Domain:  wp-Bootstrap-child
 */
 
+body
+{
+    font-size:16px;
+}
+
 .hero-unit {
     background: url('heroimage.jpg');
 }
