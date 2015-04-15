@@ -144,6 +144,7 @@ a.edd-wl-action.edd-wl-button .label{
 }
 
 .thumbnail{
+    padding:0px;
     border: none;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
