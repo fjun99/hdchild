@@ -105,3 +105,10 @@ a.edd-wl-action.edd-wl-button .label{
     background-color:rgba(0, 0, 0, 0.1);
 }
 
+/*
+    WP-Types
+*/
+
+.form-item-checkbox label{
+    display: inline;
+}
