@@ -34,6 +34,10 @@ a{
     background: url('heroimage.jpg');
 }
 
+.navbar-inverse .brand {
+    color: #fff;
+}
+
 /*
     book single page
 */
