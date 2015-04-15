@@ -135,6 +135,7 @@ a.edd-wl-action.edd-wl-button .label{
 
 .frontdiv{
     background-color: #ffffff;
+    position: relative;
 }
 
 .frontdiv>a {
