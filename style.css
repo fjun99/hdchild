@@ -30,7 +30,6 @@ a{
     background: url('heroimage.jpg');
 }
 
-
 /*
     book single page
 */
@@ -56,10 +55,13 @@ a{
     padding-right: 64px;
 }
 
+.singlemain{
+    border-right: 1px solid #eee;
+}
 
 .singlesidebar {
     padding-left:20px;
-    border-left: 1px solid #eee;
+    /*border-left: 1px solid #eee;*/
     padding-top: 32px;
 }
 
