@@ -18,7 +18,7 @@ body
     line-height: 24px;
 }
 
-body .home {
+.home {
     background-color: #f3f3f3;
 }
 
@@ -69,9 +69,10 @@ article{
 
 
 @media (max-width: 480px) {
-    body{
+    .home {
         background-color: #ffffff;
     }
+
     .bookbody {
         padding-right: 0px;
     }
