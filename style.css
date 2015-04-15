@@ -18,6 +18,10 @@ body
     line-height: 24px;
 }
 
+p{
+    padding-bottom: 16px;
+}
+
 a{
     color: #000000;
 }
