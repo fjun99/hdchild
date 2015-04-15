@@ -136,3 +136,9 @@ a.edd-wl-action.edd-wl-button .label{
 .front{
     background-color: #ffffff;
 }
+
+.hero-unit{
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+ border-radius: 0px;
+}
