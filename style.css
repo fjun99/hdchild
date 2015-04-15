@@ -142,3 +142,10 @@ a.edd-wl-action.edd-wl-button .label{
 -moz-border-radius: 0px;
  border-radius: 0px;
 }
+
+.thumbnail{
+    border: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
