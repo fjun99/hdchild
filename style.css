@@ -18,6 +18,10 @@ body
     line-height: 24px;
 }
 
+a{
+    color: #000000;
+}
+
 .hero-unit {
     background: url('heroimage.jpg');
 }
