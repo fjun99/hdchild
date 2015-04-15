@@ -85,6 +85,9 @@ article{
         padding-left:0px;
         border-left: none;
     }
+    .singlemain{
+        border-right: none;
+    }
 }
 
 @media (max-width: 767px){
@@ -166,4 +169,8 @@ a.edd-wl-action.edd-wl-button .label{
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+}
+
+.front-title{
+    font-weight: normal;
 }
