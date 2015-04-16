@@ -122,7 +122,7 @@ function my_enqueue($hook) {
         return;
     }
 
-    wp_enqueue_script( 'ajax-script', get_template_directory_uri().'/js/my_query.js', array('jquery') );
+    wp_enqueue_script( 'ajax-script', get_stylesheet_directory_uri().'/js/my_query.js', array('jquery') );
 
     // in JavaScript, object properties are accessed as ajax_object.ajax_url, ajax_object.we_value
     wp_localize_script( 'ajax-script', 'ajax_object',
