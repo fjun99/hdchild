@@ -94,7 +94,7 @@ remove_action('wp_head', 'wp_generator');
 //test
 
 
-
+/*
 add_action( 'admin_footer', 'my_action_javascript' ); // Write our JS below here
 
 function my_action_javascript() { ?>
@@ -113,6 +113,22 @@ function my_action_javascript() { ?>
         });
     </script> <?php
 }
+*/
+
+add_action( 'admin_enqueue_scripts', 'my_enqueue' );
+function my_enqueue($hook) {
+    if( 'index.php' != $hook ) {
+        // Only applies to dashboard panel
+        return;
+    }
+
+    wp_enqueue_script( 'ajax-script', plugins_url( '/js/my_query.js', __FILE__ ), array('jquery') );
+
+    // in JavaScript, object properties are accessed as ajax_object.ajax_url, ajax_object.we_value
+    wp_localize_script( 'ajax-script', 'ajax_object',
+        array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'we_value' => 1234 ) );
+}
+
 
 add_action( 'wp_ajax_my_action', 'my_action_callback' );
 
