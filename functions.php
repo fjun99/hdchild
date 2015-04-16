@@ -93,7 +93,7 @@ remove_action('wp_head', 'wp_generator');
 
 //test ajax
 
-
+/*
 add_action( 'admin_enqueue_scripts', 'my_enqueue' );
 function my_enqueue($hook) {
     if( 'index.php' != $hook ) {
@@ -122,3 +122,4 @@ function my_action_callback() {
 
     wp_die(); // this is required to terminate immediately and return a proper response
 }
+*/
