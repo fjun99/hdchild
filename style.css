@@ -211,3 +211,10 @@ img.site-logo {
     font-size: 14px;
     font-weight: lighter;
 }
+
+@media (max-width: 480px) {
+    #footer {
+        padding: 10px 10px;
+    }
+
+}
