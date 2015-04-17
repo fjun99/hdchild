@@ -186,3 +186,19 @@ a.edd-wl-action.edd-wl-button .label{
 .front-title{
     font-weight: normal;
 }
+
+/* logo */
+
+.navbar .brand {
+    display: block;
+    float: left;
+    padding: 0px 20px 0px 20px;
+    margin-left: -20px;
+}
+
+img.site-logo {
+    height: 45px;
+    width:100px;
+    padding: 0px;
+    margin: 0px;
+}
