@@ -204,3 +204,10 @@ img.site-logo {
 }
 
 /* footer */
+#footer {
+    background-color: #23bdd0;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: lighter;
+}

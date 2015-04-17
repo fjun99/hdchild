@@ -28,8 +28,8 @@
 	</div><!-- .container -->
 
 <footer id="footer" class="muted">
-    <hr>
-    <p class="pull-left"><a href="/">会读：少儿阅读指导</a></p>
+
+    <p class="pull-left">会读：少儿阅读指导</p>
     <p class="pull-right">© 2015</p>
 
     <p style="clear:both;"><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>
