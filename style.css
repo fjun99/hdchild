@@ -192,14 +192,14 @@ a.edd-wl-action.edd-wl-button .label{
 .navbar .brand {
     display: block;
     float: left;
-    padding: 0px 20px 0px 20px;
+    padding: 5px 20px 4px 20px;
     margin-left: -20px;
 }
 
 img.site-logo {
     height: 36px;
     width:80px;
-    padding: 0px 5px 0px 4px;
+    padding: 0px;
     margin: 0px;
 }
 
