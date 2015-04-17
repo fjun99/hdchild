@@ -20,6 +20,12 @@
 		?>
 
 		<?php do_action( 'wpbootstrap_before_footer' ); ?>
+<!-- old footer -->
+
+
+		<?php do_action( 'wpbootstrap_after_footer' ); ?>
+
+	</div><!-- .container -->
 
 <footer id="footer" class="muted">
     <hr>
@@ -28,10 +34,6 @@
 
     <p style="clear:both;"><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>
 </footer>
-
-		<?php do_action( 'wpbootstrap_after_footer' ); ?>
-
-	</div><!-- .container -->
 
 <?php do_action( 'wpbootstrap_before_wp_footer' ); ?>
 <?php wp_footer(); ?>
