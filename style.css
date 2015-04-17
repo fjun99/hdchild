@@ -184,7 +184,14 @@ a.edd-wl-action.edd-wl-button .label{
 }
 
 .front-title{
-    font-weight: normal;
+    font-weight: lighter;
+}
+
+img.logo {
+    height: 36px;
+    width:80px;
+    padding: 10px 20px 0px 0px;
+    margin: 0px;
 }
 
 /* logo */
