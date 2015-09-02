@@ -5,11 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title><?php echo bloginfo("name") ?> <?php echo wp_title( '&ndash;', false, 'left' ); ?></title>
-<!--	--><?php //if ( of_get_option( 'favicon' ) ): ?>
-<!--		<link rel="shortcut icon" href="--><?php //echo of_get_option( 'favicon' ); ?><!--">-->
-<!--	--><?php //else: ?>
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/favicon.ico">
-<!--	--><?php //endif ?>
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/favicon.ico">
 	<?php
 		do_action( 'wpbootstrap_before_wp_head' );
 		wp_head();
