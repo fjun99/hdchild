@@ -13,10 +13,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-
 	<?php do_action( 'wpbootstrap_before_container' ); ?>
 	<div class="container">
-
 		<?php
 			if( wpbootstrap_get_setting('general_settings','display_header_widgets') ) {
 				get_sidebar('header-widgets');
