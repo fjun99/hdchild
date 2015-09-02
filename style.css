@@ -218,6 +218,8 @@ img.site-logo {
     /*color: #ffffff;*/
     font-size: 14px;
     font-weight: lighter;
+    height: 40px;
+    padding-top: 40px;
 }
 
 @media (max-width: 480px) {
