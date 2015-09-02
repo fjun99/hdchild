@@ -31,8 +31,6 @@
 
     <p class="pull-left">会读：少儿阅读指导</p>
     <p class="pull-right">© 2015</p>
-
-    <p style="clear:both;"><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>
 </footer>
 
 <?php do_action( 'wpbootstrap_before_wp_footer' ); ?>
